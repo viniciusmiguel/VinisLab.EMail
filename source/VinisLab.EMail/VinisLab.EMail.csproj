@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <LangVersion>default</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>VinisLab.EMail</RootNamespace>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>E-Mail Type and Validation</Title>
+        <Authors>Vinicius Miguel</Authors>
+        <Description>Defines an email type in dotnet and adds functionality of validation and parsing compliant with RFCs 5322 and 6854</Description>
+        <Copyright>Vinicius Miguel</Copyright>
+        <PackageProjectUrl>https://github.com/viniciusmiguel/VinisLab.EMail</PackageProjectUrl>
+        <PackageLicenseUrl></PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/viniciusmiguel/VinisLab.EMail</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <PackageTags>EMail, Validation</PackageTags>
+    </PropertyGroup>
+
+</Project>

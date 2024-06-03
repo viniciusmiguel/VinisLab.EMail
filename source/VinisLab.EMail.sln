@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VinisLab.EMail", "VinisLab.EMail\VinisLab.EMail.csproj", "{A777B98B-7FA6-4948-A05C-B4EF5A23DEDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VinisLab.EMail.Tests", "VinisLab.EMail.Tests\VinisLab.EMail.Tests.csproj", "{3EA0D042-EFCE-4DBE-AA8C-AAC65A46509F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A777B98B-7FA6-4948-A05C-B4EF5A23DEDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A777B98B-7FA6-4948-A05C-B4EF5A23DEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A777B98B-7FA6-4948-A05C-B4EF5A23DEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A777B98B-7FA6-4948-A05C-B4EF5A23DEDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA0D042-EFCE-4DBE-AA8C-AAC65A46509F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA0D042-EFCE-4DBE-AA8C-AAC65A46509F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA0D042-EFCE-4DBE-AA8C-AAC65A46509F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA0D042-EFCE-4DBE-AA8C-AAC65A46509F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
