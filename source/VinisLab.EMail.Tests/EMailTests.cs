@@ -42,7 +42,6 @@ public class EMailTests
     public void EMail_Type_Should_Be_Created()
     {
         var email = new EMail("valid@example.com");
-        Assert.NotNull(email);
         Assert.IsType<EMail>(email);
     }
     
@@ -57,7 +56,6 @@ public class EMailTests
     public void EMail_Type_Should_Be_Created_From_String_Extension()
     {
         var email = "valid@example.com".ToEMail();
-        Assert.NotNull(email);
         Assert.IsType<EMail>(email);
     }
     
