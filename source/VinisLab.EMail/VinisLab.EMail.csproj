@@ -12,10 +12,10 @@
         <Description>Defines an email type in dotnet and adds functionality of validation and parsing compliant with RFCs 5322 and 6854</Description>
         <Copyright>Vinicius Miguel</Copyright>
         <PackageProjectUrl>https://github.com/viniciusmiguel/VinisLab.EMail</PackageProjectUrl>
-        <PackageLicenseUrl></PackageLicenseUrl>
         <RepositoryUrl>https://github.com/viniciusmiguel/VinisLab.EMail</RepositoryUrl>
         <RepositoryType>Git</RepositoryType>
         <PackageTags>EMail, Validation</PackageTags>
+        <Version>1.0.0.0</Version>
     </PropertyGroup>
 
 </Project>

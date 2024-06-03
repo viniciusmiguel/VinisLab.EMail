@@ -21,7 +21,7 @@ jobs:
     - name: Set package version
       id: set_version
       run: |
-        VERSION_DATE=$(date +'%Y.%m.%d.%H%M')
+        VERSION_DATE=$(date +'%y.%m.%d.%H%M')
         echo "PACKAGE_VERSION=$VERSION_DATE" >> $GITHUB_ENV
         echo "Package version set to $VERSION_DATE"
         sed -i "s/<Version>.*<\/Version>/<Version>$VERSION_DATE<\/Version>/" source/VinisLab.EMail/VinisLab.EMail.csproj
