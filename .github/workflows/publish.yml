@@ -18,6 +18,14 @@ jobs:
       with:
         dotnet-version: '8.x'
 
+    - name: Set package version
+      id: set_version
+      run: |
+        VERSION_DATE=$(date +'%Y.%m.%d.%H%M')
+        echo "PACKAGE_VERSION=$VERSION_DATE" >> $GITHUB_ENV
+        echo "Package version set to $VERSION_DATE"
+        sed -i "s/<Version>.*<\/Version>/<Version>$VERSION_DATE<\/Version>/" source/VinisLab.Email/VinisLab.Email.csproj
+
     - name: Restore dependencies
       run: dotnet restore source/VinisLab.EMail.sln
 
